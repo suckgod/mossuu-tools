@@ -1,0 +1,42 @@
+# 忽略虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略测试数据输出（保留目录结构）
+tests/data/raw/*
+tests/data/clean/*
+!tests/data/raw/.gitkeep
+!tests/data/clean/.gitkeep
+
+# 忽略生成的数据文件
+data/clean/*
+!data/clean/.gitkeep
+
+# 忽略报告输出
+reports/*
+!reports/.gitkeep
+
+# 配置文件中的敏感信息
+config.local.json
+.env
+.secrets
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+.cache/
