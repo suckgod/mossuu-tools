@@ -25,7 +25,7 @@ class DataCleaner:
 
         output_path = os.path.join(self.output_dir, os.path.basename(filepath))
         df.to_csv(output_path, index=False)
-        print(f"✓ {filepath} -> {output_path} ({len(df)} rows)")
+        print(f"[OK] {filepath} -> {output_path} ({len(df)} rows)")
 
     def process_excel(self, filepath):
         """Process single Excel file"""
@@ -35,14 +35,14 @@ class DataCleaner:
 
         output_path = os.path.join(self.output_dir, os.path.basename(filepath).replace(".xlsx", ".csv"))
         df.to_csv(output_path, index=False)
-        print(f"✓ {filepath} -> {output_path} ({len(df)} rows)")
+        print(f"[OK] {filepath} -> {output_path} ({len(df)} rows)")
 
     def run(self):
-        """处理所有数据文件"""
+        """Process all data files"""
         csv_files = glob.glob(os.path.join(self.input_dir, "*.csv"))
         excel_files = glob.glob(os.path.join(self.input_dir, "*.xlsx"))
 
-        print(f"发现 {len(csv_files)} 个 CSV, {len(excel_files)} 个 Excel 文件")
+        print(f"Found {len(csv_files)} CSV, {len(excel_files)} Excel files")
 
         for f in csv_files:
             self.process_csv(f)
@@ -50,7 +50,7 @@ class DataCleaner:
         for f in excel_files:
             self.process_excel(f)
 
-        print(f"\n完成！清洗后的文件保存在 {self.output_dir}/")
+        print(f"\nDone! Cleaned files in {self.output_dir}/")
 
 if __name__ == "__main__":
     cleaner = DataCleaner()

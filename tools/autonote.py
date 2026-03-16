@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """
-AutoNote - 智能笔记整理脚本
-自动整理 Markdown 笔记文件：归类、去重、生成索引
+AutoNote - Smart note organizer
 """
 
 import os
+import sys
 import re
 import json
 from datetime import datetime
 from pathlib import Path
+
+# Ensure UTF-8 output
+if sys.version_info[0] < 3:
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
 
 class NoteOrganizer:
     def __init__(self, notes_dir):
