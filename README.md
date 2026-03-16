@@ -37,9 +37,7 @@ See [QUICKSTART.md](QUICKSTART.md) for full documentation.
 ## 💎 Premium Products
 
 ### 1. Python AutoKit — $19.99
-10 advanced automation scripts for real-world workflows.
-
-**🎉 4 scripts ready now, 6 more coming (all included)**
+**11 powerful automation scripts—all ready now!**
 
 **Categories:**
 - 📁 File Management (smart rename, duplicate finder, backup rotation)
@@ -55,7 +53,7 @@ See [QUICKSTART.md](QUICKSTART.md) for full documentation.
 - Lifetime free updates
 - Commercial license
 
-[View details →](products/python-autokit-product.md)
+[View details & all 11 scripts →](products/python-autokit-product.md)
 
 ---
 

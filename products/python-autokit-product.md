@@ -6,7 +6,7 @@
 
 ---
 
-## ✅ Done & Ready (4/10)
+## ✅ All Scripts Complete! (11/11)
 
 You get these **immediately** upon purchase:
 
@@ -22,21 +22,30 @@ Monitor disk usage, threshold alerts, email/webhook, daemon mode, history loggin
 ### 4. log_watcher.py
 Real-time log tailing, regex pattern matching, email/webhook alerts, rotation safe.
 
+### 5. backup_rotator.py
+Smart backup cleanup policies: keep last N, daily/weekly/monthly retention.
+
+### 6. csv_analyzer.py
+Quick CSV profiling and statistics: data types, missing values, numeric stats, unique values.
+
+### 7. excel_formatter.py
+Excel table standardization: headers, column ordering, type conversion, styling, auto-width.
+
+### 8. json_merger.py
+Merge and deduplicate JSON files: union/intersection/merge modes, deep merge, key-based dedup.
+
+### 9. markdown_toc.py
+Auto-generate Markdown table of contents with GitHub-style anchor links, insert at marker.
+
+### 10. blog_auto.py
+Multi-platform blog publishing: WordPress, Medium, Dev.to, Hashnode, Ghost, RSS feed.
+
+### 11. transcript_cleaner.py
+Clean subtitles/transcripts: remove filler words, stutters, applause/laughter markers, merge fragments.
+
 ---
 
-## 🚧 In Development (6/10)
-
-These are being built now and will be delivered soon:
-
-5. backup_rotator.py — Smart backup cleanup policies
-6. csv_analyzer.py — Quick CSV profiling & stats
-7. excel_formatter.py — Excel table standardization
-8. json_merger.py — Merge/deduplicate JSON files
-9. markdown_toc.py — Auto-generate Markdown TOC
-10. blog_auto.py — Multi-platform blog publishing
-11. transcript_cleaner.py — Clean subtitles/transcripts
-
-*All future updates included for free.*
+## 🎉 全部完成！
 
 ---
 
@@ -52,7 +61,7 @@ These are being built now and will be delivered soon:
 
 ## 📦 What You Get
 
-- ✅ **Complete source code** (well-commented, production-ready)
+- ✅ **Complete source code** (11 production-ready scripts)
 - ✅ **Works on Linux/macOS/Windows** (Python 3.6+)
 - ✅ **Bilingual docs** (EN + 中文)
 - ✅ **30-day support** via GitHub Issues
