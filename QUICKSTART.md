@@ -10,6 +10,8 @@
 | SimpleDataCleaner | CSV 数据清洗（纯 Python 标准库） | ✅ 可用 |
 | DataCleaner | 高级数据清洗（CSV+Excel，需 pandas） | ✅ 可用 |
 | ReportGen | 每日报告生成器（Git + 日历） | ✅ 可用 |
+| Duplicate Finder | 查找并管理重复文件（哈希比对） | ✅ 可用 |
+| Smart Rename | 批量智能重命名文件 | ✅ 可用 |
 
 ## 🚀 快速开始
 
@@ -53,6 +55,30 @@ python3 tools/datacleaner.py
 ```bash
 python3 tools/reportgen.py
 # 输出: reports/report_YYYY-MM-DD.md
+```
+
+**Duplicate Finder** - 查找重复文件：
+```bash
+# 扫描目录，仅报告（安全）
+python3 tools/duplicate_finder.py ./photos
+
+# 生成 CSV 报告
+python3 tools/duplicate_finder.py ./backup --report duplicates.csv
+
+# 预览删除操作（不实际删除）
+python3 tools/duplicate_finder.py ./data --delete --dry-run
+
+# 实际删除重复文件（保留最早版本）
+python3 tools/duplicate_finder.py ./data --delete
+
+# 使用硬链接节省空间（复制只需一次，后续为链接）
+python3 tools/duplicate_finder.py ./backup --hardlink
+```
+
+**Smart Rename** - 智能批量重命名：
+```bash
+python3 tools/smart_rename.py ./downloads
+# 自动分类：图片、视频、文档、代码等
 ```
 
 ## 📁 目录结构

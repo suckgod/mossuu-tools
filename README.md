@@ -26,9 +26,11 @@
 
 | 工具 | 功能 | 使用 |
 |------|------|------|
-| **AutoNote** | 智能笔记整理（支持 Markdown） | `python tools/autonote.py /path/to/notes` |
+| **AutoNote** | 智能笔记整理（分类、去重、索引） | `python tools/autonote.py /path/to/notes` |
 | **ReportGen** | 每日报告生成（git/系统/日历） | `python tools/reportgen.py config.json` |
 | **SimpleDataCleaner** | CSV 数据清洗（纯标准库） | `python tools/simple_datacleaner.py` |
+| **Duplicate Finder** | 查找并管理重复文件 | `python tools/duplicate_finder.py /path/to/dir` |
+| **Smart Rename** | 批量智能重命名文件 | `python tools/smart_rename.py /path/to/dir` |
 
 [查看完整文档 →](QUICKSTART.md)
 
