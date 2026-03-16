@@ -39,6 +39,8 @@ See [QUICKSTART.md](QUICKSTART.md) for full documentation.
 ### 1. Python AutoKit — $19.99
 10 advanced automation scripts for real-world workflows.
 
+**🎉 4 scripts ready now, 6 more coming (all included)**
+
 **Categories:**
 - 📁 File Management (smart rename, duplicate finder, backup rotation)
 - 📊 Data Processing (CSV analyzer, Excel formatter, JSON merger)

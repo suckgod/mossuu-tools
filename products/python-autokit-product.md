@@ -1,46 +1,81 @@
-# Python AutoKit - 高级自动化脚本包
+# Python AutoKit — $19.99
 
-**价格：$19.99** | 包含 10 个实用自动化脚本
+**10 powerful automation scripts. Get 4 immediately + 6 as they're built.**
 
----
-
-## 📦 包含内容
-
-### 1. 文件管理自动化
-- ✅ `smart_rename.py` - 批量智能重命名文件（已完成）
-- ✅ `duplicate_finder.py` - 查找并管理重复文件（已完成）
-- ⏳ `backup_rotator.py` - 自动备份轮转工具（规划中）
-
-### 2. 数据处理
-- `csv_analyzer.py` - CSV 数据快速分析与统计
-- `excel_formatter.py` - Excel 表格格式标准化
-- `json_merger.py` - JSON 文件合并与去重
-
-### 3. 内容创作
-- `markdown_toc.py` - 自动生成 Markdown 目录
-- `blog_auto.py` - 博客发布自动化（支持多个平台）
-- `transcript_cleaner.py` - 字幕/转录文本整理
-
-### 4. 系统监控
-- `log_watcher.py` - 日志文件监控与告警
-- `disk_alerter.py` - 磁盘空间监控
+[Buy Now](#) | [GitHub Repo](https://github.com/suckgod/mossuu-tools)
 
 ---
 
-## 🎯 每个脚本包含：
-- 完整源代码 + 详细注释
-- 配置文件模板
-- 使用文档（中英双语）
-- 30天技术支持（通过 GitHub Issues）
+## ✅ Done & Ready (4/10)
+
+You get these **immediately** upon purchase:
+
+### 1. smart_rename.py
+Batch rename files with patterns, regex, date prefixes, dry-run, conflict detection.
+
+### 2. duplicate_finder.py
+Find duplicate files by hash (MD5/SHA1/SHA256), with safe delete/move/report actions.
+
+### 3. disk_alerter.py
+Monitor disk usage, threshold alerts, email/webhook, daemon mode, history logging.
+
+### 4. log_watcher.py
+Real-time log tailing, regex pattern matching, email/webhook alerts, rotation safe.
 
 ---
 
-## 💰 购买后获得：
-- 即时下载链接
-- 终身免费更新
-- 商业使用许可
-- 可定制脚本（额外费用）
+## 🚧 In Development (6/10)
+
+These are being built now and will be delivered soon:
+
+5. backup_rotator.py — Smart backup cleanup policies
+6. csv_analyzer.py — Quick CSV profiling & stats
+7. excel_formatter.py — Excel table standardization
+8. json_merger.py — Merge/deduplicate JSON files
+9. markdown_toc.py — Auto-generate Markdown TOC
+10. blog_auto.py — Multi-platform blog publishing
+11. transcript_cleaner.py — Clean subtitles/transcripts
+
+*All future updates included for free.*
 
 ---
 
-**感兴趣？** 联系 MOSSUU 获取购买链接
+## 🎯 Who Needs This?
+
+- **Developers** — automate file ops, logging, system checks
+- **Data scientists** — quick CSV profiling, cleanup
+- **Writers/bloggers** — batch rename, content publishing
+- **Sysadmins** — disk alerts, log monitoring
+- **Anyone** drowning in repetitive file/log tasks
+
+---
+
+## 📦 What You Get
+
+- ✅ **Complete source code** (well-commented, production-ready)
+- ✅ **Works on Linux/macOS/Windows** (Python 3.6+)
+- ✅ **Bilingual docs** (EN + 中文)
+- ✅ **30-day support** via GitHub Issues
+- ✅ **Lifetime free updates**
+- ✅ **MIT license** — use commercially, modify, redistribute
+
+---
+
+## 💰 How to Buy
+
+1. **Pay** via [GitHub Sponsors](https://github.com/sponsors/suckgod) (one-time) or [Buy Me a Coffee](https://buymeacoffee.com/mossuu) or PayPal
+2. **Notify me** (include transaction ID if GitHub Sponsors)
+3. **I verify** and send download link (instant to 24h)
+4. **Download ZIP** with all scripts, no DRM
+
+**Questions?** [Open an issue](https://github.com/suckgod/mossuu-tools/issues)
+
+---
+
+<div align="center">
+
+**Ready to automate?**
+
+[![Buy Now](https://img.shields.io/badge/-$19.99%20One--Time-ff69b4?style=for-the-badge)](https://github.com/sponsors/suckgod)
+
+</div>
