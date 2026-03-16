@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:02,500
+[SPEAKER 1]: Hello, um, welcome to the show.
+
+2
+00:00:02,500 --> 00:00:05,000
+[SPEAKER 2]: Thank you, [laughter] it's great to be here.
+
+3
+00:00:05,500 --> 00:00:08,000
+[SPEAKER 1]: So, uh, tell us about your work.
+
+4
+00:00:08,500 --> 00:00:12,000
+[SPEAKER 2]: Well, [applause] I've been doing, you know, research.
+
+5
+00:00:12,500 --> 00:00:15,000
+[SPEAKER 1]: Interesting, [music] can you elaborate?
+
+6
+00:00:15,500 --> 00:00:18,000
+[SPEAKER 2]: Sure, basically, it's about AI and automation.

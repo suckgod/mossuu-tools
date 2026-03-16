@@ -1,0 +1,10 @@
+{
+  "users": [
+    {"id": 2, "name": "Bob", "email": "bob@newdomain.com"},
+    {"id": 3, "name": "Charlie", "email": "charlie@example.com"}
+  ],
+  "version": "2.0",
+  "settings": {
+    "theme": "dark"
+  }
+}

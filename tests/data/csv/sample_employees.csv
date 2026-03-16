@@ -1,0 +1,11 @@
+name,age,salary,city,join_date,active
+Alice,30,50000,New York,2020-01-15,true
+Bob,25,45000,Los Angeles,2021-03-22,false
+Charlie,35,75000,Chicago,2019-07-30,true
+Diana,28,,San Francisco,2022-11-05,true
+Eve,32,62000,Seattle,2020-09-12,true
+Frank,45,90000,New York,2018-04-01,false
+Grace,29,52000,Boston,2021-01-10,true
+Henry,38,68000,Austin,2017-12-03,true
+Ivy,26,41000,Denver,2023-02-14,false
+Jack,33,57000,Portland,2020-06-20,true

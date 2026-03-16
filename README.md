@@ -95,22 +95,46 @@ Contact me to activate.
 
 After payment, I'll send download links instantly.
 
+## 📦 Dependencies
+
+Check **[DEPENDENCIES.md](DEPENDENCIES.md)** for package requirements and installation instructions.
+
 ## 📂 Project Structure
 
 ```
 mossuu-tools/
-├── tools/              # All scripts
+├── tools/              # All scripts (free tools)
 │   ├── autonote.py
 │   ├── simple_datacleaner.py
 │   ├── datacleaner.py
 │   ├── reportgen.py
 │   └── config.json
-├── tests/              # Test data
-├── data/               # Input/output
+├── products/
+│   ├── python-autokit/
+│   │   └── scripts/   # 11 premium scripts
+│   │       ├── backup_rotator.py
+│   │       ├── csv_analyzer.py
+│   │       ├── disk_alerter.py
+│   │       ├── duplicate_finder.py
+│   │       ├── excel_formatter.py
+│   │       ├── json_merger.py
+│   │       ├── log_watcher.py
+│   │       ├── markdown_toc.py
+│   │       ├── smart_rename.py
+│   │       ├── blog_auto.py
+│   │       └── transcript_cleaner.py
+│   ├── python-autokit-product.md
+│   └── ai-productivity-ebook.md
+├── tests/              # Unit tests and sample data
+│   ├── test_autokit_smoke.py
+│   ├── test_autonote.py
+│   ├── test_duplicate_finder.py
+│   └── data/           # Test fixtures (CSV, Excel, JSON, etc.)
+├── data/               # Input/output for free tools
 │   ├── raw/
 │   └── clean/
 ├── reports/            # Generated reports
-├── products/           # Product pages
+├── DEPENDENCIES.md     # 📦 Python package requirements
 ├── QUICKSTART.md       # Getting started guide
 └── README.md           # This file
 ```
