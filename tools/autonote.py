@@ -26,7 +26,7 @@ class NoteOrganizer:
         """扫描所有笔记文件"""
         notes = []
         for file in self.notes_dir.glob("*.md"):
-            content = file.read_text()
+            content = file.read_text(encoding='utf-8')
             notes.append({
                 "file": file.name,
                 "path": str(file),
@@ -70,28 +70,28 @@ class NoteOrganizer:
             cat = self.categorize_note(note["content"])
             categorized[cat].append(note)
 
-        with open(self.index_file, "w") as f:
-            f.write("# 笔记索引\n\n")
-            f.write(f"生成时间: {datetime.now()}\n\n")
+        with open(self.index_file, "w", encoding='utf-8') as f:
+            f.write("# Notes Index\n\n")
+            f.write(f"Generated: {datetime.now()}\n\n")
 
             for cat, cat_notes in categorized.items():
                 if cat_notes:
                     f.write(f"## {cat.title()}\n\n")
                     for note in cat_notes:
-                        f.write(f"- [{note['file']}]({note['file']}) - {note['size']} 字\n")
+                        f.write(f"- [{note['file']}]({note['file']}) - {note['size']} chars\n")
                     f.write("\n")
 
     def run(self):
         """执行整理流程"""
-        print(f"扫描目录: {self.notes_dir}")
+        print(f"Scanning: {self.notes_dir}")
         notes = self.scan_notes()
-        print(f"发现 {len(notes)} 个笔记")
+        print(f"Found {len(notes)} notes")
 
         notes = self.remove_duplicates(notes)
-        print(f"去重后: {len(notes)} 个")
+        print(f"After dedup: {len(notes)}")
 
         self.generate_index(notes)
-        print(f"索引已生成: {self.index_file}")
+        print(f"Index generated: {self.index_file}")
 
         # 可选：自动移动文件到分类文件夹
         # self.move_to_folders(notes)

@@ -1,0 +1,8 @@
+{
+  "sources": ["git", "system", "calendar"],
+  "output_format": "markdown",
+  "notification": {
+    "email": false,
+    "qq": true
+  }
+}
