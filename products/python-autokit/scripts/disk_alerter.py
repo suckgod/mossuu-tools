@@ -14,14 +14,24 @@ Usage:
 import os
 import sys
 import time
-import psutil
 import argparse
-import smtplib
 import json
 from pathlib import Path
 from datetime import datetime
 from email.mime.text import MIMEText
 from typing import List, Dict, Optional
+
+try:
+    import psutil
+    PSUTIL_AVAILABLE = True
+except ImportError:
+    PSUTIL_AVAILABLE = False
+
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
 
 __version__ = "1.0.0"
 
@@ -51,6 +61,11 @@ class DiskAlerter:
 
     def get_disk_usage(self, path: Path) -> Optional[Dict]:
         """Get disk usage stats for a path"""
+        if not PSUTIL_AVAILABLE:
+            if self.verbose:
+                print("  Error: psutil not installed. Install with: pip install psutil")
+            return None
+
         try:
             usage = psutil.disk_usage(str(path))
             return {
@@ -139,7 +154,10 @@ class DiskAlerter:
         if not self.webhook_url:
             return False
 
-        import requests
+        if not REQUESTS_AVAILABLE:
+            print("Error: requests library not installed. Install with: pip install requests")
+            return False
+
         try:
             payload = {
                 "text": "🚨 Disk Space Alert",
@@ -238,11 +256,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Simple check of root partition, threshold 90%
+  # Simple check of root partition, threshold 90%%
   %(prog)s /
 
   # Monitor multiple paths with email notification
-  %(prog)s / /home --threshold 85% --email admin@example.com
+  %(prog)s / /home --threshold 85%% --email admin@example.com
 
   # Run as daemon, check every 10 minutes
   %(prog)s / --interval 600 --daemon

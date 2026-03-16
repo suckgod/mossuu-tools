@@ -498,7 +498,7 @@ Notes:
   - Tags limited per platform (usually 5 max)
       """
     )
-    subparsers = parser.add_subparsers(dest='command', required=True)
+    subparsers = parser.add_subparsers(dest='command')
 
     # Publish single file
     pub_parser = subparsers.add_parser('publish', help='Publish single article')
@@ -531,6 +531,9 @@ Notes:
     parser.add_argument('--version', action='version', version=f"blog_auto {__version__}")
 
     args = parser.parse_args()
+
+    if not args.command:
+        parser.error("a command is required (publish, batch, validate, or rss)")
 
     # Check dependencies
     if not HAS_REQUESTS and args.command != 'validate':

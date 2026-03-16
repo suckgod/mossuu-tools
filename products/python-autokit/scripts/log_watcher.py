@@ -17,7 +17,7 @@ import argparse
 import re
 from pathlib import Path
 from datetime import datetime
-from typing import Optional, List, Pattern
+from typing import Optional, List, Pattern, Any
 
 try:
     import smtplib
@@ -102,11 +102,11 @@ class LogWatcher:
                 print(f"Error reading {self.logfile}: {e}")
             return []
 
-    def matches_pattern(self, line: str) -> Optional[re.Match]:
+    def matches_pattern(self, line: str) -> Optional[Any]:
         """Check if line matches the pattern"""
         return self.pattern.search(line)
 
-    def format_alert(self, line: str, match: Optional[re.Match]) -> str:
+    def format_alert(self, line: str, match: Optional[Any]) -> str:
         """Format alert message"""
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         matched_text = match.group(0) if match else "Pattern matched"

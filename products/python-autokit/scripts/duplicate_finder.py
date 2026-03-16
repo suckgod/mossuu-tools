@@ -66,11 +66,14 @@ class DuplicateFinder:
         """Calculate hash of a file"""
         h = self.HASH_ALGORITHMS[self.hash_algo]()
         with open(filepath, 'rb') as f:
-            while chunk := f.read(chunk_size):
+            while True:
+                chunk = f.read(chunk_size)
+                if not chunk:
+                    break
                 h.update(chunk)
         return h.hexdigest()
 
-    def _should_skip(self, filepath: Path) -> tuple[bool, str]:
+    def _should_skip(self, filepath: Path) -> Tuple[bool, str]:
         """Check if file should be skipped based on criteria"""
         try:
             stat = filepath.stat()

@@ -23,19 +23,21 @@ import sys
 import argparse
 from pathlib import Path
 from typing import List, Tuple, Optional, Set, Dict
-from dataclasses import dataclass
 
 __version__ = "1.0.0"
 
-@dataclass
 class SubtitleEntry:
     """Represents a single subtitle entry"""
-    index: int
-    start: str  # timecode or line number
-    end: str
-    speaker: str
-    text: str
-    raw: str = ''  # original line
+    def __init__(self, index: int, start: str, end: str, speaker: str, text: str, raw: str = ''):
+        self.index = index
+        self.start = start
+        self.end = end
+        self.speaker = speaker
+        self.text = text
+        self.raw = raw
+
+    def __repr__(self):
+        return f"SubtitleEntry(index={self.index}, start={self.start}, end={self.end}, speaker={self.speaker!r}, text={self.text[:30]!r}...)"
 
 class TranscriptCleaner:
     def __init__(self,
@@ -407,7 +409,7 @@ Examples:
   %(prog)s panel.vtt --speaker-map "SPEAKER 1:Host" --speaker-map "SPEAKER 2:Guest"
 
 Features:
-  - Filler word removal (um, uh, 嗯, 呃, etc.)
+  - Filler word removal (um, uh, etc.)
   - Remove [applause], [laughter], [music] markers
   - Speaker label normalization/mapping
   - Merge short-gap subtitles (configurable threshold)

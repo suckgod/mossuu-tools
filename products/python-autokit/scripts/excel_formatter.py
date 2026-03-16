@@ -25,7 +25,12 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
-import pandas as pd
+
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
 
 __version__ = "1.0.0"
 
@@ -69,6 +74,9 @@ class ExcelFormatter:
 
     def load_excel(self):
         """Load Excel file into DataFrame"""
+        if not PANDAS_AVAILABLE:
+            raise ImportError("pandas not installed. Install with: pip install pandas openpyxl")
+
         self.log(f"Loading: {self.input_file}")
         try:
             self.df = pd.read_excel(self.input_file, engine='openpyxl')
@@ -90,7 +98,7 @@ class ExcelFormatter:
             new_col = str(col).strip().lower()
 
             # Replace spaces and special chars with underscores
-            new_col = re.sub(r'[\s\-]+', '_', new_col)  # spaces/hyphens → _
+            new_col = re.sub(r'[\s\-]+', '_', new_col)  # spaces/hyphens -> _
             new_col = re.sub(r'[^\w_]', '', new_col)    # remove non-alphanumeric (except _)
 
             # Ensure non-empty
@@ -232,12 +240,17 @@ class ExcelFormatter:
             self.df.to_csv(self.output_file, index=False, encoding='utf-8')
         else:
             # Excel
-            if self.auto_width or self.header_style:
-                # Need to use ExcelWriter with openpyxl engine for formatting
-                with pd.ExcelWriter(self.output_file, engine='openpyxl') as writer:
-                    self.apply_formats(writer)
-            else:
-                self.df.to_excel(self.output_file, index=False, engine='openpyxl')
+            try:
+                if self.auto_width or self.header_style:
+                    # Need to use ExcelWriter with openpyxl engine for formatting
+                    with pd.ExcelWriter(self.output_file, engine='openpyxl') as writer:
+                        self.apply_formats(writer)
+                else:
+                    self.df.to_excel(self.output_file, index=False, engine='openpyxl')
+            except ImportError as e:
+                if 'openpyxl' in str(e):
+                    raise ImportError("openpyxl not installed. Install with: pip install openpyxl")
+                raise
 
         print(f"  Saved: {self.df.shape[0]} rows × {self.df.shape[1]} columns")
         self.stats['final_shape'] = self.df.shape
@@ -289,7 +302,7 @@ Notes:
   - Requires pandas + openpyxl: pip install pandas openpyxl
   - Header standardization: removes special chars, replaces spaces with _, lowercases
   - Reorder preserves given column order, appends unspecified columns at end
-  - Date conversion uses pandas.to_datetime with errors='coerce' (invalid dates → NaT)
+  - Date conversion uses pandas.to_datetime with errors='coerce' (invalid dates -> NaT)
       """
     )
     parser.add_argument(
