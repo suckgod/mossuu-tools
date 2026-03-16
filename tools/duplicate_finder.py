@@ -114,6 +114,7 @@ class DuplicateFinder:
         """Find duplicate files by content hash"""
         hashes = defaultdict(list)
         files = self.scan_files()
+        self.files_scanned = len(files)  # Track count
 
         print(f"Computing hashes for {len(files)} files...")
 
@@ -232,14 +233,14 @@ class DuplicateFinder:
         duplicates = self.find_duplicates()
 
         if not duplicates:
-            print("✅ No duplicates found!")
+            print("[OK] No duplicates found!")
             return 0
 
         print(f"\nProcessing {sum(len(d)-1 for d in duplicates)} duplicates...")
         actions = self.handle_duplicates(duplicates)
 
         # Summary
-        print(f"\n📊 Summary:")
+        print(f"\n[Summary]")
         print(f"  Files scanned: {self.files_scanned}")
         print(f"  Duplicate sets: {len(duplicates)}")
         print(f"  Duplicates handled: {self.duplicates_found}")
@@ -257,9 +258,9 @@ class DuplicateFinder:
             print(f"  Report: {self.report}")
 
         if self.dry_run:
-            print("\n💡 Tip: Run without --dry-run to apply changes")
+            print("\n[Tip] Run without --dry-run to apply changes")
 
-        print("\n✅ Done!")
+        print("\n[Done]")
         return 0
 
 def main():
@@ -337,7 +338,7 @@ Note: Always test with --dry-run first!
         if args.dry_run:
             print("[DRY RUN] No files will be modified")
         else:
-            print("⚠️  WARNING: This will modify files!")
+            print("[WARNING] This will modify files!")
             if args.delete:
                 print("   Mode: DELETE duplicates")
             if args.hardlink:

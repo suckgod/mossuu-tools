@@ -7,9 +7,9 @@
 ## 📦 包含内容
 
 ### 1. 文件管理自动化
-- `smart_rename.py` - 批量智能重命名文件
-- `duplicate_finder.py` - 查找并管理重复文件
-- `backup_rotator.py` - 自动备份轮转工具
+- ✅ `smart_rename.py` - 批量智能重命名文件（已完成）
+- ✅ `duplicate_finder.py` - 查找并管理重复文件（已完成）
+- ⏳ `backup_rotator.py` - 自动备份轮转工具（规划中）
 
 ### 2. 数据处理
 - `csv_analyzer.py` - CSV 数据快速分析与统计
