@@ -36,7 +36,7 @@ See [QUICKSTART.md](QUICKSTART.md) for full documentation.
 
 ## 💎 Premium Products
 
-### 1. Python AutoKit — $19.99
+### 1. Python AutoKit — ¥19.9
 **11 powerful automation scripts—all ready now!**
 
 **Categories:**
@@ -89,10 +89,10 @@ Contact me to activate.
 
 ## 💳 How to Buy
 
-**Price: ¥145 (≈ $19.99)**
+**Price: ¥19.9 (≈ ¥19.9)**
 
 1. **Scan QR code** (see product page or `qr_code.png`)
-2. **Pay ¥145** via Alipay/WeChat
+2. **Pay ¥19.9** via Alipay/WeChat
 3. **Contact me** (GitHub Issue or QQ) with payment proof
 4. **I'll send** private download link
 

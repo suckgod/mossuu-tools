@@ -1,6 +1,6 @@
-# Python AutoKit — $19.99 ⭐ **ALL 11 SCRIPTS READY!**
+# Python AutoKit — ¥19.9 ⭐ **ALL 11 SCRIPTS READY!**
 
-[![Buy Now](https://img.shields.io/badge/-$19.99%20One--Time-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/suckgod)
+[![Buy Now](https://img.shields.io/badge/-¥19.9%20One--Time-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/suckgod)
 [![GitHub Repo](https://img.shields.io/badge/View%20Source-grey?logo=github)](https://github.com/suckgod/mossuu-tools)
 
 > **11 powerful automation scripts for developers, data scientists, and sysadmins.**
@@ -35,7 +35,7 @@ You get these **immediately** upon purchase:
 
 ## 🚀 How to Buy
 
-**Price: ¥145 (≈ $19.99)**
+**Price: ¥19.9 (≈ ¥19.9)**
 
 ### Step 1: Scan to Pay
 
@@ -45,7 +45,7 @@ You get these **immediately** upon purchase:
 
 *(如果图片未显示，请见项目根目录的 `qr_code.png` 文件)*
 
-**金额**: ¥145
+**金额**: ¥19.9
 
 ---
 
@@ -125,6 +125,6 @@ See full list above.
 
 **Ready to automate?**
 
-[![Buy Now](https://img.shields.io/badge/-$19.99%20One--Time-ff69b4?style=for-the-badge)](https://github.com/sponsors/suckgod)
+[![Buy Now](https://img.shields.io/badge/-¥19.9%20One--Time-ff69b4?style=for-the-badge)](https://github.com/sponsors/suckgod)
 
 </div>
