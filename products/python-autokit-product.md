@@ -33,22 +33,34 @@ You get these **immediately** upon purchase:
 
 ---
 
-## 🚀 **How to Buy & Get Instantly** (3 Steps)
+## 🚀 **How to Buy & Get Instantly** (2 Options)
 
-1. **Pay $19.99** via GitHub Sponsors (one-time):
+### Option 1: Direct Payment (支付宝/微信) - RECOMMENDED for China
+
+**No foreign bank account needed. Fastest.**
+
+1. **Scan to Pay** (支付宝 or 微信):
+   ![Alipay QR Code](alipay_qr.png)
+   *(Replace `alipay_qr.png` with your actual QR code image)*
+
+2. **Amount**: ¥145 (≈ $19.99, based on current rate)
+
+3. **After payment**:
+   - Send me your **GitHub username** (or email) via:
+     - GitHub Issue: https://github.com/suckgod/mossuu-tools/issues
+     - Or QQ (if we're chatting)
+   - I'll verify and **send download link within 24h** (usually instant)
+
+---
+
+### Option 2: GitHub Sponsors (International)
+
+1. **Pay $19.99** via GitHub Sponsors:
    👉 [**CLICK HERE TO SPONSOR →**](https://github.com/sponsors/suckgod)
-   - Select "$20" tier (or custom $19.99)
-   - Complete payment via GitHub
 
-2. **Notify me** (automatic):
-   - If you use GitHub Sponsors, I'll automatically receive your payment notification with your GitHub username.
-   - **No need to message me** — I'll verify and send the download link within 24h (usually instant).
+2. **I'll automatically receive** your GitHub username.
 
-3. **Receive your download**:
-   - I'll send you a **private GitHub Release link** with a ZIP containing all 11 scripts.
-   - Download and start automating immediately!
-
-**Questions?** Open an issue: https://github.com/suckgod/mossuu-tools/issues
+3. **I'll verify** and send **private Release download link** within 24h.
 
 ---
 

@@ -87,17 +87,15 @@ Contact me to activate.
 
 ---
 
-## 💳 Payment Methods
+## 💳 How to Buy
 
-- **GitHub Sponsors** (recommended — direct, no middleman)
-- **Buy Me a Coffee** (memberships + one-time tips)
-- **PayPal** (traditional)
+**Price: $19.99 (one-time) or ¥145 (Alipay/WeChat)**
 
-After payment, I'll send download links instantly.
+- **🇨🇳 支付宝/微信**: Scan QR code in [product page](products/python-autokit-product.md)
+- **🌍 GitHub Sponsors**: https://github.com/sponsors/suckgod ($20 tier)
+- After payment, I'll send you a **private download link** (usually instant).
 
-## 📦 Dependencies
-
-Check **[DEPENDENCIES.md](DEPENDENCIES.md)** for package requirements and installation instructions.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for full setup instructions.
 
 ## 📂 Project Structure
 
