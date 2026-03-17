@@ -89,10 +89,9 @@ Contact me to activate.
 
 ## 💳 How to Buy
 
-**Price: $19.99 (one-time) or ¥145 (Alipay/WeChat)**
+**Price: $19.99 (one-time)**
 
-- **🇨🇳 支付宝/微信**: Scan QR code in [product page](products/python-autokit-product.md)
-- **🌍 GitHub Sponsors**: https://github.com/sponsors/suckgod ($20 tier)
+- **Pay via GitHub Sponsors**: https://github.com/sponsors/suckgod (select $20 tier)
 - After payment, I'll send you a **private download link** (usually instant).
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for full setup instructions.

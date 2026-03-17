@@ -33,37 +33,32 @@ You get these **immediately** upon purchase:
 
 ---
 
-## 🚀 **How to Buy & Get Instantly** (2 Options)
+## 🚀 How to Buy & Get Instantly
 
-### Option 1: Direct Payment (支付宝/微信) - RECOMMENDED for China
+**Price: $19.99 (one-time payment)**
 
-**No foreign bank account needed. Fastest.**
-
-1. **Scan to Pay** (支付宝 or 微信):
-   ![Alipay QR Code](alipay_qr.png)
-   *(Replace `alipay_qr.png` with your actual QR code image)*
-
-2. **Amount**: ¥145 (≈ $19.99, based on current rate)
-
-3. **After payment**:
-   - Send me your **GitHub username** (or email) via:
-     - GitHub Issue: https://github.com/suckgod/mossuu-tools/issues
-     - Or QQ (if we're chatting)
-   - I'll verify and **send download link within 24h** (usually instant)
-
----
-
-### Option 2: GitHub Sponsors (International)
-
-1. **Pay $19.99** via GitHub Sponsors:
+1. **Pay via GitHub Sponsors**:
    👉 [**CLICK HERE TO SPONSOR →**](https://github.com/sponsors/suckgod)
+   - Select the **$20** tier
+   - Complete payment
 
-2. **I'll automatically receive** your GitHub username.
+2. **I receive** your GitHub username automatically.
 
-3. **I'll verify** and send **private Release download link** within 24h.
+3. **I verify** and send **private download link** within 24h (usually instant).
+
+4. **Download** ZIP and start automating!
+
+**Questions?** Open an issue: https://github.com/suckgod/mossuu-tools/issues
 
 ---
 
+## 🎯 Who Needs This?
+
+- **Developers** — automate file ops, logging, system checks
+- **Data scientists** — quick CSV profiling, cleanup
+- **Writers/bloggers** — batch rename, content publishing
+- **Sysadmins** — disk alerts, log monitoring
+- **Anyone** drowning in repetitive file/log tasks
 ## 🎯 Who Needs This?
 
 ---
