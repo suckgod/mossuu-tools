@@ -33,24 +33,24 @@ You get these **immediately** upon purchase:
 
 ---
 
-## 🚀 How to Buy & Get Instantly
+## 🚀 How to Buy
 
-**Price: $19.99 (one-time payment)**
+**Price: ¥145 (≈ $19.99)**
 
-1. **Pay via GitHub Sponsors**:
-   👉 [**CLICK HERE TO SPONSOR →**](https://github.com/sponsors/suckgod)
-   - Select the **$20** tier
-   - Complete payment
+由于 GitHub Sponsors 排队中，目前使用**手动收款**：
 
-2. **I receive** your GitHub username automatically.
+1. **Contact me** (open an Issue or QQ):
+   👉 [Open GitHub Issue →](https://github.com/suckgod/mossuu-tools/issues)
 
-3. **I verify** and send **private download link** within 24h (usually instant).
+2. **I'll reply** with payment instructions (Alipay/WeChat).
 
-4. **Download** ZIP and start automating!
+3. **You pay** ¥145 via QR code.
 
-**Questions?** Open an issue: https://github.com/suckgod/mossuu-tools/issues
+4. **I verify** and send **private download link** shortly.
 
----
+5. **Download** ZIP and start automating!
+
+See [PRIVATE_BUY.md](PRIVATE_BUY.md) for full details.
 
 ## 🎯 Who Needs This?
 

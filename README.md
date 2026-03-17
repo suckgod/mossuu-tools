@@ -89,12 +89,15 @@ Contact me to activate.
 
 ## 💳 How to Buy
 
-**Price: $19.99 (one-time)**
+**Price: ¥145 (≈ $19.99)**
 
-- **Pay via GitHub Sponsors**: https://github.com/sponsors/suckgod (select $20 tier)
-- After payment, I'll send you a **private download link** (usually instant).
+Due to GitHub Sponsors queue, purchases are currently **manual**:
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for full setup instructions.
+1. **Contact me**: Open an [Issue](https://github.com/suckgod/mossuu-tools/issues) or QQ
+2. I'll send payment instructions (Alipay/WeChat)
+3. After payment, I'll send **private download link**
+
+See [PRIVATE_BUY.md](PRIVATE_BUY.md) for full process.
 
 ## 📂 Project Structure
 
