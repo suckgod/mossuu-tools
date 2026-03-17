@@ -91,13 +91,12 @@ Contact me to activate.
 
 **Price: ¥145 (≈ $19.99)**
 
-Due to GitHub Sponsors queue, purchases are currently **manual**:
+1. **Scan QR code** (see product page or `qr_code.png`)
+2. **Pay ¥145** via Alipay/WeChat
+3. **Contact me** (GitHub Issue or QQ) with payment proof
+4. **I'll send** private download link
 
-1. **Contact me**: Open an [Issue](https://github.com/suckgod/mossuu-tools/issues) or QQ
-2. I'll send payment instructions (Alipay/WeChat)
-3. After payment, I'll send **private download link**
-
-See [PRIVATE_BUY.md](PRIVATE_BUY.md) for full process.
+See [PRIVATE_BUY.md](PRIVATE_BUY.md) for details.
 
 ## 📂 Project Structure
 

@@ -37,20 +37,46 @@ You get these **immediately** upon purchase:
 
 **Price: ¥145 (≈ $19.99)**
 
-由于 GitHub Sponsors 排队中，目前使用**手动收款**：
+### Step 1: Scan to Pay
 
-1. **Contact me** (open an Issue or QQ):
-   👉 [Open GitHub Issue →](https://github.com/suckgod/mossuu-tools/issues)
+支付宝/微信 扫码支付:
 
-2. **I'll reply** with payment instructions (Alipay/WeChat).
+![QR Code](qr_code.png)
 
-3. **You pay** ¥145 via QR code.
+*(如果图片未显示，请见项目根目录的 `qr_code.png` 文件)*
 
-4. **I verify** and send **private download link** shortly.
+**金额**: ¥145
 
-5. **Download** ZIP and start automating!
+---
 
-See [PRIVATE_BUY.md](PRIVATE_BUY.md) for full details.
+### Step 2: Contact Me
+
+付款后，通过以下方式联系我：
+
+- **GitHub Issue**: [Open an issue →](https://github.com/suckgod/mossuu-tools/issues)
+- **QQ**: (你的QQ号，如果愿意公开)
+
+**请提供**:
+- 付款截图
+- 你的 GitHub username (可选)
+
+---
+
+### Step 3: Receive Download
+
+我确认收款后，会立即发送 **私有下载链接**（永久有效）。
+
+---
+
+## 📦 What You Get
+
+11 Python automation scripts (same as before)...
+
+See full list above.
+
+---
+
+**有任何问题？** 直接开 Issue 或 QQ 问我！
 
 ## 🎯 Who Needs This?
 
