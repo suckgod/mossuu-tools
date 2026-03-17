@@ -1,51 +1,58 @@
-# Python AutoKit — $19.99
+# Python AutoKit — $19.99 ⭐ **ALL 11 SCRIPTS READY!**
 
-**10 powerful automation scripts. Get 4 immediately + 6 as they're built.**
+[![Buy Now](https://img.shields.io/badge/-$19.99%20One--Time-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/suckgod)
+[![GitHub Repo](https://img.shields.io/badge/View%20Source-grey?logo=github)](https://github.com/suckgod/mossuu-tools)
 
-[Buy Now](#) | [GitHub Repo](https://github.com/suckgod/mossuu-tools)
+> **11 powerful automation scripts for developers, data scientists, and sysadmins.**
+> Python 3.6+ compatible. Cross-platform. Production-ready.
 
 ---
 
-## ✅ All Scripts Complete! (11/11)
+## 🎉 全部完成！(11/11)
 
 You get these **immediately** upon purchase:
 
-### 1. smart_rename.py
-Batch rename files with patterns, regex, date prefixes, dry-run, conflict detection.
+### 📁 File Management
+1. **smart_rename.py** - Batch rename files with patterns, regex, date prefixes
+2. **duplicate_finder.py** - Find duplicates by hash (MD5/SHA1/SHA256), safe delete
+3. **backup_rotator.py** - Smart backup cleanup (daily/weekly/monthly retention)
 
-### 2. duplicate_finder.py
-Find duplicate files by hash (MD5/SHA1/SHA256), with safe delete/move/report actions.
+### 📊 Data Processing
+4. **csv_analyzer.py** - Quick CSV profiling, stats, and report generation
+5. **excel_formatter.py** - Standardize Excel: headers, types, formatting
+6. **json_merger.py** - Merge/deduplicate JSON (union/intersection/deep merge)
 
-### 3. disk_alerter.py
-Monitor disk usage, threshold alerts, email/webhook, daemon mode, history logging.
+### ✍️ Content Creation
+7. **markdown_toc.py** - Auto-generate Markdown table of contents
+8. **blog_auto.py** - Publish to WordPress, Medium, Dev.to, Hashnode, Ghost
+9. **transcript_cleaner.py** - Clean subtitles (remove filler words, stutters)
 
-### 4. log_watcher.py
-Real-time log tailing, regex pattern matching, email/webhook alerts, rotation safe.
-
-### 5. backup_rotator.py
-Smart backup cleanup policies: keep last N, daily/weekly/monthly retention.
-
-### 6. csv_analyzer.py
-Quick CSV profiling and statistics: data types, missing values, numeric stats, unique values.
-
-### 7. excel_formatter.py
-Excel table standardization: headers, column ordering, type conversion, styling, auto-width.
-
-### 8. json_merger.py
-Merge and deduplicate JSON files: union/intersection/merge modes, deep merge, key-based dedup.
-
-### 9. markdown_toc.py
-Auto-generate Markdown table of contents with GitHub-style anchor links, insert at marker.
-
-### 10. blog_auto.py
-Multi-platform blog publishing: WordPress, Medium, Dev.to, Hashnode, Ghost, RSS feed.
-
-### 11. transcript_cleaner.py
-Clean subtitles/transcripts: remove filler words, stutters, applause/laughter markers, merge fragments.
+### 📈 System Monitoring
+10. **disk_alerter.py** - Monitor disk space, email/webhook alerts, daemon mode
+11. **log_watcher.py** - Real-time log monitoring with pattern matching
 
 ---
 
-## 🎉 全部完成！
+## 🚀 **How to Buy & Get Instantly** (3 Steps)
+
+1. **Pay $19.99** via GitHub Sponsors (one-time):
+   👉 [**CLICK HERE TO SPONSOR →**](https://github.com/sponsors/suckgod)
+   - Select "$20" tier (or custom $19.99)
+   - Complete payment via GitHub
+
+2. **Notify me** (automatic):
+   - If you use GitHub Sponsors, I'll automatically receive your payment notification with your GitHub username.
+   - **No need to message me** — I'll verify and send the download link within 24h (usually instant).
+
+3. **Receive your download**:
+   - I'll send you a **private GitHub Release link** with a ZIP containing all 11 scripts.
+   - Download and start automating immediately!
+
+**Questions?** Open an issue: https://github.com/suckgod/mossuu-tools/issues
+
+---
+
+## 🎯 Who Needs This?
 
 ---
 
